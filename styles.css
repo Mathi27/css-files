@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row; 
+  /* justify content --> for main axis */
+  justify-content: center;
+  /* align-items --> for cross axis */
+  align-items:  center;
+  background-color: yellow;
+}
+.flexboxitem{
+    width: 200px;
+    border: 2px black solid;
+    margin: 10px;
+    background-color: aqua;
+}
+.flexboxitem-1{
+    min-height: 100px;
+}
+.flexboxitem-2{
+    min-height: 200px;
+}
+.flexboxitem-3{
+    min-height: 300px;
+}
+/* second flex container */
+
+.flex-container2{
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    height: 800px;
+}
