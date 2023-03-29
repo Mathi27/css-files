@@ -1,0 +1,24 @@
+.box1{
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  background-color: skyblue;
+  position: sticky;
+  top: 20px;
+   
+}
+.box2{
+   border: 1px solid;
+   height: 100px;
+   width: 100px;
+   background-color: tomato;
+   position: absolute;
+   top: 100px;
+   left: 100px;
+ 
+}
+/* 
+
+Relative: We can move the relative with some point of origin of the element
+ */
+ /* Absolute : anything which is stated absolute will be taken out of the flow form the document  */
